@@ -18,7 +18,7 @@ to make the BI server available you then need to run:
 
     juju expose pentaho-bi-server
 
-You can then browse to http://ip-address:8080/pentaho to configure the service.
+You can then browse to http://ip-address:8080/pentaho to configure the application.
 
 The default username and password is admin/password.
 
@@ -28,7 +28,7 @@ Currently this charm does not support scale out usage.
 
 ## Known Limitations and Issues
 
-This charm is currently pretty basic, and doesn't support scaleout/HA usage, this will be resolved in an upcoming release. Did you catch this?
+This charm is currently pretty basic, and doesn't support scaleout/HA usage, this will be resolved in an upcoming release. 
 
 More features and relations to improve deployments will be coming soon.
 
